@@ -32,7 +32,7 @@ jobs:
 
     - name: .NET code metrics
       id: dotnet-code-metrics
-      uses: Pragrammist/GitHubAction/tree/main/DotNet.GitHubAction@main
+      uses: Pragrammist/GitHubAction/@main
       env:
         GREETINGS: 'Hello, .NET developers!' # ${{ secrets.GITHUB_TOKEN }}
       with:
